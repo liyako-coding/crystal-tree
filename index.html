@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天然水晶發財樹 | 讓美好能量，在生活中悄悄綻放 - 桌面原木擺設</title>
+  <meta name="description" content="一棵承載祝福與心意的水晶發財樹，天然原木切片底座，粉晶、白晶、紅瑪瑙、綠東陵石四款可選。客廳玄關、辦公桌面、開店喬遷贈禮首選。限時特惠 NT$ 199，全家超取付款。">
+  
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="天然水晶發財樹 | 讓美好能量，在生活中悄悄綻放">
+  <meta property="og:description" content="一棵承載祝福與心意的水晶發財樹，天然原木底座，四款水晶可選。限時特惠 199 元，全家好賣+便利下單。">
+  <meta property="og:image" content="images/1_1.png">
+  
+  <!-- Google Fonts: Noto Serif TC (典雅襯線) + Plus Jakarta Sans (現代簡約) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fbf9f6',
+              100: '#f5f0e8',
+              200: '#ebe1d2',
+              300: '#ddccb4',
+              400: '#cdb293',
+              500: '#bc9674',
+              600: '#a87e5e',
+              700: '#8c654d',
+              800: '#725241',
+              900: '#5e4337',
+            },
+            accent: {
+              gold: '#c59d5f',
+              rose: '#e8b4b8',
+              jade: '#90a996',
+              amber: '#c87d55'
+            }
+          },
+          fontFamily: {
+            serif: ['"Noto Serif TC"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* 微妙毛玻璃與陰影 */
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .hero-gradient {
+      background: radial-gradient(circle at 50% 20%, rgba(245, 240, 232, 0.7) 0%, rgba(251, 249, 246, 0.95) 70%, #ffffff 100%);
+    }
+    /* 質感金屬微光按鈕 */
+    .btn-shine {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shine::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        60deg,
+        rgba(255, 255, 255, 0) 20%,
+        rgba(255, 255, 255, 0.25) 50%,
+        rgba(255, 255, 255, 0) 80%
+      );
+      transform: rotate(30deg) translateY(-100%);
+      transition: transform 0.75s ease;
+    }
+    .btn-shine:hover::after {
+      transform: rotate(30deg) translateY(100%);
+    }
+  </style>
+</head>
+<body class="bg-brand-50 text-stone-800 font-sans antialiased selection:bg-brand-200 selection:text-brand-900 pb-[calc(80px+env(safe-area-inset-bottom))] sm:pb-0">
+
+  <!-- ================= 頂部導航欄 (Sticky Header 高度改為固定明確的 72px) ================= -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-stone-200/80 transition-all duration-300 h-[72px]" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group" aria-label="回到首頁">
+        <span class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-brand-200/80 border border-brand-300 flex items-center justify-center text-brand-800 group-hover:scale-105 transition-transform">
+          <i data-lucide="sparkles" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+        </span>
+        <div class="flex flex-col">
+          <span class="font-serif text-base sm:text-lg font-bold tracking-wider text-stone-900 leading-tight">天然水晶發財樹</span>
+          <span class="text-[9px] sm:text-[11px] tracking-widest uppercase text-stone-600 font-sans">Crystal Fortune Tree</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-stone-700" aria-label="主選單">
+        <a href="#features" class="hover:text-brand-800 transition-colors">細節亮點</a>
+        <a href="#placement" class="hover:text-brand-800 transition-colors">空間擺設</a>
+        <a href="#crystals" class="hover:text-brand-800 transition-colors">水晶寓意</a>
+        <a href="#specs" class="hover:text-brand-800 transition-colors">商品規格</a>
+        <a href="#faq" class="hover:text-brand-800 transition-colors">常見問題</a>
+      </nav>
+
+      <!-- Header Action Button (購買入口 1) -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <div class="hidden lg:flex flex-col text-right pr-1">
+          <span class="text-xs text-stone-500 line-through">原價 NT$ 399</span>
+          <span class="text-sm font-bold text-amber-900">特惠 NT$ 199</span>
+        </div>
+        <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="btn-shine inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-stone-900 hover:bg-brand-800 text-white text-xs sm:text-sm font-medium shadow-sm hover:shadow-md transition-all duration-300"
+           aria-label="到全家好賣＋選購天然水晶發財樹">
+          <span>到全家好賣＋選購</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= 主視覺 Hero Section (手機首屏排版精煉重整) ================= -->
+  <section class="pt-24 pb-12 sm:pt-32 sm:pb-20 hero-gradient relative overflow-hidden">
+    <!-- 背景微光裝飾 -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-brand-200/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- 響應式佈局：手機端順序為 標題(1) -> 圖集(2) -> 規格摘要與價格按鈕(3)；平板與桌機 lg: 雙欄並列 -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-start">
+        
+        <!-- 【區塊 1：品名與核心標語】(Mobile: 1 / Desktop: 左欄頂部) -->
+        <div class="lg:col-span-6 order-1 space-y-3 sm:space-y-4 text-left">
+          
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 border border-stone-300 text-xs text-stone-700">
+            <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+            <span>天然原木切片底座 ‧ 手工纏繞枝條 ‧ 現貨供應</span>
+          </div>
+
+          <h1 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-stone-900 leading-snug">
+            天然水晶發財樹<br>
+            <span class="text-brand-800 underline decoration-brand-300/80 decoration-wavy underline-offset-6 text-xl sm:text-2xl lg:text-3xl">讓美好能量，在生活中悄悄綻放</span>
+          </h1>
+
+          <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+            以天然原木切片為底座，搭配金屬線纏繞水晶樹枝。擺放在桌面或玄關，替日常空間增添柔和氣息，傳遞長久豐盛的心意。
+          </p>
+
+        </div>
+
+        <!-- 【區塊 2：商品多視角圖集】(Mobile: 2 / Desktop: 右欄跨列 lg:row-span-2) -->
+        <div class="lg:col-span-6 lg:row-span-2 order-2">
+          <div class="relative bg-white p-3 sm:p-4 rounded-2xl sm:rounded-3xl shadow-lg border border-stone-200/90">
+            
+            <!-- 主展示大圖 -->
+            <div class="relative aspect-square overflow-hidden rounded-xl sm:rounded-2xl bg-stone-100 group">
+              <img id="mainHeroImage" 
+                   src="images/1_1.png" 
+                   alt="天然水晶發財樹 - 紅瑪瑙款式（行動力｜活力｜氣場穩定）" 
+                   fetchpriority="high"
+                   decoding="async"
+                   class="w-full h-full object-cover object-center transition-all duration-300 transform group-hover:scale-105">
+              
+              <!-- 當前款式標籤 -->
+              <div class="absolute top-3 right-3 bg-stone-900/80 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md">
+                <i data-lucide="gem" class="w-3.5 h-3.5 text-amber-300"></i>
+                <span id="imageCounter" class="font-medium">紅瑪瑙</span>
+              </div>
+            </div>
+
+            <!-- 4 款縮圖列（依交接順序：紅瑪瑙、粉水晶、多款合照、綠東陵石，改用極輕量縮圖） -->
+            <div class="grid grid-cols-4 gap-2 sm:gap-3 mt-3 sm:mt-4" role="tablist" aria-label="商品款式縮圖">
+              
+              <!-- 縮圖 1：紅瑪瑙 -->
+              <button onclick="changeHeroImage('images/1_1.png', '紅瑪瑙', this, '天然水晶發財樹 - 紅瑪瑙款式（行動力｜活力｜氣場穩定）')" 
+                      class="thumb-btn active flex flex-col items-center gap-1 p-1 rounded-xl border-2 border-stone-900 bg-stone-50 transition-all focus:outline-none focus:ring-2 focus:ring-stone-800"
+                      aria-label="檢視 紅瑪瑙 款式照片"
+                      aria-current="true">
+                <div class="aspect-square w-full rounded-lg overflow-hidden">
+                  <img src="images/thumb_1_1.jpg" alt="紅瑪瑙縮圖" class="w-full h-full object-cover">
+                </div>
+                <span class="text-[11px] sm:text-xs font-bold text-stone-900">紅瑪瑙</span>
+              </button>
+
+              <!-- 縮圖 2：粉水晶 -->
+              <button onclick="changeHeroImage('images/2_2.png', '粉水晶', this, '天然水晶發財樹 - 粉水晶款式（愛情｜人緣｜自我接納）')" 
+                      class="thumb-btn flex flex-col items-center gap-1 p-1 rounded-xl border-2 border-transparent hover:border-stone-300 bg-white opacity-70 hover:opacity-100 transition-all focus:outline-none focus:ring-2 focus:ring-stone-800"
+                      aria-label="檢視 粉水晶 款式照片"
+                      aria-current="false">
+                <div class="aspect-square w-full rounded-lg overflow-hidden">
+                  <img src="images/thumb_2_2.jpg" alt="粉水晶縮圖" class="w-full h-full object-cover">
+                </div>
+                <span class="text-[11px] sm:text-xs font-medium text-stone-700">粉水晶</span>
+              </button>
+
+              <!-- 縮圖 3：多款合照 -->
+              <button onclick="changeHeroImage('images/3_3.png', '多款合照', this, '天然水晶發財樹 - 四款水晶合照（粉水晶、綠東陵、白水晶、紅瑪瑙）')" 
+                      class="thumb-btn flex flex-col items-center gap-1 p-1 rounded-xl border-2 border-transparent hover:border-stone-300 bg-white opacity-70 hover:opacity-100 transition-all focus:outline-none focus:ring-2 focus:ring-stone-800"
+                      aria-label="檢視 多款合照照片"
+                      aria-current="false">
+                <div class="aspect-square w-full rounded-lg overflow-hidden">
+                  <img src="images/thumb_3_3.jpg" alt="多款合照縮圖" class="w-full h-full object-cover">
+                </div>
+                <span class="text-[11px] sm:text-xs font-medium text-stone-700">多款合照</span>
+              </button>
+
+              <!-- 縮圖 4：綠東陵石 -->
+              <button onclick="changeHeroImage('images/4_4.png', '綠東陵石', this, '天然水晶發財樹 - 綠東陵石款式（正財｜事業發展與機會）')" 
+                      class="thumb-btn flex flex-col items-center gap-1 p-1 rounded-xl border-2 border-transparent hover:border-stone-300 bg-white opacity-70 hover:opacity-100 transition-all focus:outline-none focus:ring-2 focus:ring-stone-800"
+                      aria-label="檢視 綠東陵石 款式照片"
+                      aria-current="false">
+                <div class="aspect-square w-full rounded-lg overflow-hidden">
+                  <img src="images/thumb_4_4.jpg" alt="綠東陵石縮圖" class="w-full h-full object-cover">
+                </div>
+                <span class="text-[11px] sm:text-xs font-medium text-stone-700">綠東陵石</span>
+              </button>
+
+            </div>
+
+            <p class="text-center text-[11px] text-stone-600 mt-2 font-medium">
+              點擊上方款式可切換主圖（四款水晶皆為現貨實拍，下單時可自由選款）
+            </p>
+
+          </div>
+        </div>
+
+        <!-- 【區塊 3：規格摘要、價格、購買按鈕與安心保障】(Mobile: 3 / Desktop: 左欄下部) -->
+        <div class="lg:col-span-6 order-3 space-y-4 sm:space-y-5 text-left">
+          
+          <!-- 規格與配送摘要速覽（露出約 10 × 15 公分、天然原木底座與取貨付款摘要） -->
+          <div class="flex flex-wrap items-center gap-2 text-xs pt-1">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-100 border border-stone-300 text-stone-800 font-medium">
+              <i data-lucide="ruler" class="w-3.5 h-3.5 text-brand-700"></i>約 10 × 15 cm
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-100 border border-stone-300 text-stone-800 font-medium">
+              <i data-lucide="layers" class="w-3.5 h-3.5 text-brand-700"></i>天然原木切片底座
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-50 border border-amber-300 text-amber-950 font-semibold">
+              <i data-lucide="truck" class="w-3.5 h-3.5 text-amber-700"></i>全家超取運費 $39（貨到付款）
+            </span>
+          </div>
+
+          <!-- 價格與款式選擇標籤 -->
+          <div class="p-3.5 rounded-xl bg-white border border-stone-200 shadow-sm flex flex-wrap items-baseline justify-between gap-3">
+            <div class="flex items-baseline gap-2.5">
+              <span class="text-xs sm:text-sm text-stone-600 font-medium line-through">原價 NT$ 399</span>
+              <span class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">NT$ 199</span>
+              <span class="text-xs px-2 py-0.5 rounded bg-amber-100 text-amber-900 font-bold">現省 $200</span>
+            </div>
+            <div class="text-xs text-stone-700 font-medium flex items-center gap-1">
+              <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i>
+              <span>賣場可指定款式</span>
+            </div>
+          </div>
+
+          <!-- 主要行動呼籲 (購買入口 2) -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+            <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-shine flex-1 flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-stone-900 hover:bg-brand-800 text-white font-bold text-base shadow-lg shadow-stone-900/10 hover:shadow-xl transition-all duration-300"
+               aria-label="到全家好賣＋選購（前往商品頁下單）">
+              <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+              <span>到全家好賣＋選購</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-stone-300"></i>
+            </a>
+
+            <a href="#specs"
+               class="flex items-center justify-center gap-2 px-5 py-4 rounded-xl bg-white hover:bg-stone-50 text-stone-700 hover:text-stone-900 border border-stone-300 font-medium text-sm transition-colors shadow-sm"
+               aria-label="檢視詳細商品規格與尺寸">
+              <i data-lucide="sliders-horizontal" class="w-4 h-4"></i>
+              <span>檢視詳細規格</span>
+            </a>
+          </div>
+
+          <!-- 移至圖集與購買按鈕後方的 3 項服務保障說明 -->
+          <div class="grid grid-cols-3 gap-2 sm:gap-3 pt-3 border-t border-stone-200 text-center">
+            <div class="flex flex-col items-center gap-1 p-2 rounded-lg bg-white/70 border border-stone-200">
+              <i data-lucide="truck" class="w-4 h-4 text-brand-700"></i>
+              <span class="text-xs font-bold text-stone-800">全家店到店</span>
+              <span class="text-[11px] text-stone-600">運費 $39 取貨付款</span>
+            </div>
+            <div class="flex flex-col items-center gap-1 p-2 rounded-lg bg-white/70 border border-stone-200">
+              <i data-lucide="package-check" class="w-4 h-4 text-brand-700"></i>
+              <span class="text-xs font-bold text-stone-800">安心防撞包裝</span>
+              <span class="text-[11px] text-stone-600">嚴密氣泡保護到店</span>
+            </div>
+            <div class="flex flex-col items-center gap-1 p-2 rounded-lg bg-white/70 border border-stone-200">
+              <i data-lucide="shield-check" class="w-4 h-4 text-brand-700"></i>
+              <span class="text-xs font-bold text-stone-800">天然礦石精選</span>
+              <span class="text-[11px] text-stone-600">四款寓意自由選擇</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 產品核心特色 (Features Section 加入 scroll-mt-[72px] 防遮擋) ================= -->
+  <section id="features" class="py-16 sm:py-24 bg-white border-t border-stone-200 scroll-mt-[72px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+        <span class="text-xs uppercase tracking-widest text-brand-700 font-semibold">Exquisite Craftsmanship</span>
+        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mt-2">細節之中，看見獨特的美</h2>
+        <div class="w-12 h-0.5 bg-brand-400 mx-auto mt-3 mb-4"></div>
+        <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+          每棵水晶發財樹都是巧思結晶。以天然原木切片打磨為底座，搭配金屬線纏繞天然水晶，在空間裡留下沉穩溫潤的氣息。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        
+        <!-- 特色 1 -->
+        <div class="bg-brand-50/70 p-6 rounded-2xl border border-stone-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-amber-100/90 text-amber-950 flex items-center justify-center mb-4">
+              <i data-lucide="gem" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-lg font-bold text-stone-900 mb-2">晶瑩天然光暈</h3>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              每顆水晶都有獨特的色澤與天然紋理。光線在晶體間折射出細膩的光暈，天然結晶賦予它靈動盎然的生氣。
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-stone-200 text-xs text-stone-600 font-medium flex items-center gap-1.5">
+            <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i>
+            <span>天然原礦碎石精選</span>
+          </div>
+        </div>
+
+        <!-- 特色 2 -->
+        <div class="bg-brand-50/70 p-6 rounded-2xl border border-stone-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-stone-200 text-stone-900 flex items-center justify-center mb-4">
+              <i data-lucide="layers" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-lg font-bold text-stone-900 mb-2">天然原木底座</h3>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              原木切片底座與穩固枝條接合，比例拿捏得宜，兼顧放置時的穩定度與自然木紋美感，展現精品擺飾質感。
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-stone-200 text-xs text-stone-600 font-medium flex items-center gap-1.5">
+            <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i>
+            <span>穩固抗傾 ‧ 原木手感</span>
+          </div>
+        </div>
+
+        <!-- 特色 3 -->
+        <div class="bg-brand-50/70 p-6 rounded-2xl border border-stone-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-rose-100 text-rose-950 flex items-center justify-center mb-4">
+              <i data-lucide="maximize" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-lg font-bold text-stone-900 mb-2">約 10×15 公分適中尺寸</h3>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              適中的桌面尺寸設計，自由擺放於邊桌、玄關或辦公桌。不搶占空間，卻能悄然成為視覺亮點。
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-stone-200 text-xs text-stone-600 font-medium flex items-center gap-1.5">
+            <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i>
+            <span>桌面不佔位黃金比例</span>
+          </div>
+        </div>
+
+        <!-- 特色 4 -->
+        <div class="bg-brand-50/70 p-6 rounded-2xl border border-stone-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="w-11 h-11 rounded-xl bg-emerald-100 text-emerald-950 flex items-center justify-center mb-4">
+              <i data-lucide="git-branch" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-lg font-bold text-stone-900 mb-2">金屬線纏繞枝條</h3>
+            <p class="text-stone-700 text-sm leading-relaxed">
+              以金屬線手工纏繞而成，枝條錯落分布有致。收到後可依個人喜好輕柔調整枝椏展開角度，越看越有韻味。
+            </p>
+          </div>
+          <div class="mt-5 pt-3 border-t border-stone-200 text-xs text-stone-600 font-medium flex items-center gap-1.5">
+            <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i>
+            <span>枝椏可隨心展開微調</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 水晶寓意系列 (Crystals Section 加入 scroll-mt-[72px]) ================= -->
+  <section id="crystals" class="py-16 sm:py-24 bg-brand-100/60 border-t border-b border-brand-200/60 scroll-mt-[72px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs uppercase tracking-widest text-brand-700 font-semibold">Crystal Energy</span>
+        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mt-2">四款水晶代表寓意</h2>
+        <div class="w-12 h-0.5 bg-brand-500 mx-auto mt-3 mb-4"></div>
+        <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+          全家好賣＋賣場提供四款水晶可自由選擇，每一款皆對應專屬美好的祝福寓意。
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- 粉水晶 -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 hover:-translate-y-1 transition-transform">
+          <div class="w-10 h-10 rounded-full bg-rose-100 text-rose-800 flex items-center justify-center font-serif font-bold text-sm mb-3">
+            粉
+          </div>
+          <h3 class="font-serif text-lg font-bold text-stone-900">粉水晶</h3>
+          <span class="inline-block text-xs text-rose-700 font-semibold mt-0.5 mb-2.5">愛情 ｜ 人緣 ｜ 自我接納</span>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            常與愛情、人緣與自我接納連結，象徵柔和的情感互動、好人緣與溫和氣氛，適合放在日常相處或想提升人際親和力的空間。
+          </p>
+        </div>
+
+        <!-- 綠東陵石 -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 hover:-translate-y-1 transition-transform">
+          <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center font-serif font-bold text-sm mb-3">
+            綠
+          </div>
+          <h3 class="font-serif text-lg font-bold text-stone-900">綠東陵石</h3>
+          <span class="inline-block text-xs text-emerald-700 font-semibold mt-0.5 mb-2.5">正財 ｜ 事業發展與機會</span>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            常與正財、事業發展與機會連結，綠色帶有生機與穩定感，常被視為拓展合作、順遂推進與招引好機會的代表。
+          </p>
+        </div>
+
+        <!-- 白水晶 -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 hover:-translate-y-1 transition-transform">
+          <div class="w-10 h-10 rounded-full bg-slate-100 text-slate-800 flex items-center justify-center font-serif font-bold text-sm mb-3">
+            白
+          </div>
+          <h3 class="font-serif text-lg font-bold text-stone-900">白水晶</h3>
+          <span class="inline-block text-xs text-slate-700 font-semibold mt-0.5 mb-2.5">專注 ｜ 清晰 ｜ 能量整合</span>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            常與專注、清晰與能量整合連結，有平衡與放大其他水晶寓意的說法，適合工作桌、書桌或需要清爽思緒的位置。
+          </p>
+        </div>
+
+        <!-- 紅瑪瑙 -->
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 hover:-translate-y-1 transition-transform">
+          <div class="w-10 h-10 rounded-full bg-red-100 text-red-800 flex items-center justify-center font-serif font-bold text-sm mb-3">
+            紅
+          </div>
+          <h3 class="font-serif text-lg font-bold text-stone-900">紅瑪瑙</h3>
+          <span class="inline-block text-xs text-red-700 font-semibold mt-0.5 mb-2.5">行動力 ｜ 活力 ｜ 氣場穩定</span>
+          <p class="text-stone-600 text-xs leading-relaxed">
+            常與行動力、活力與氣場穩定連結，暖色調帶有積極與踏實感，適合需要衝勁、克服拖延或想穩住節奏的時候。
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 空間擺設與送禮情境 (Placement Section 加入 scroll-mt-[72px]) ================= -->
+  <section id="placement" class="py-16 sm:py-24 bg-white scroll-mt-[72px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs uppercase tracking-widest text-brand-700 font-semibold">Living Space Aesthetics</span>
+        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mt-2">處處皆風景，靜謐在每個角落綻放</h2>
+        <div class="w-12 h-0.5 bg-brand-400 mx-auto mt-3 mb-4"></div>
+        <p class="text-stone-700 text-sm sm:text-base leading-relaxed">
+          無論是客廳、玄關、辦公桌，或是店內開幕的陳列桌面，它都能悄然成為空間裡一抹靜謐的亮點。
+        </p>
+      </div>
+
+      <!-- 雙欄情境展示卡片 -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-10 items-center mb-14">
+        
+        <!-- 左卡：空間擺設 -->
+        <div class="bg-brand-50 rounded-2xl sm:rounded-3xl p-5 sm:p-7 border border-stone-200 flex flex-col md:flex-row gap-5 items-center">
+          <div class="w-full md:w-1/2 aspect-[4/5] rounded-xl overflow-hidden shadow-sm">
+            <img src="images/2.png" 
+                 alt="客廳玄關展示" 
+                 loading="lazy"
+                 decoding="async"
+                 class="w-full h-full object-cover">
+          </div>
+          <div class="w-full md:w-1/2 space-y-3">
+            <div class="w-9 h-9 rounded-xl bg-brand-200 text-brand-900 flex items-center justify-center">
+              <i data-lucide="home" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-stone-900">居家客廳 ‧ 玄關迎賓</h3>
+            <p class="text-stone-700 text-xs sm:text-sm leading-relaxed">
+              置於進門玄關或邊几櫃旁，回家第一眼便看見晶瑩綠意與溫和光澤，撫平整日的奔波勞頓，為家宅凝聚溫潤和氣。
+            </p>
+            <ul class="text-xs text-stone-600 space-y-1.5 pt-1">
+              <li class="flex items-center gap-1.5">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-brand-700"></i>
+                <span>玄關迎吉聚福氣</span>
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-brand-700"></i>
+                <span>約 10×15 cm 邊几優雅點綴</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 右卡：辦公書桌 -->
+        <div class="bg-brand-50 rounded-2xl sm:rounded-3xl p-5 sm:p-7 border border-stone-200 flex flex-col md:flex-row gap-5 items-center">
+          <div class="w-full md:w-1/2 aspect-[4/5] rounded-xl overflow-hidden shadow-sm">
+            <img src="images/3.png" 
+                 alt="辦公書桌擺飾" 
+                 loading="lazy"
+                 decoding="async"
+                 class="w-full h-full object-cover">
+          </div>
+          <div class="w-full md:w-1/2 space-y-3">
+            <div class="w-9 h-9 rounded-xl bg-brand-200 text-brand-900 flex items-center justify-center">
+              <i data-lucide="briefcase" class="w-4 h-4"></i>
+            </div>
+            <h3 class="font-serif text-lg sm:text-xl font-bold text-stone-900">辦公書桌 ‧ 沉澱思緒</h3>
+            <p class="text-stone-700 text-xs sm:text-sm leading-relaxed">
+              工作疲憊或思路卡關時，凝視天然水晶的光澤折射，如置身樹蔭般寧靜，理清頭緒，提升專注力與工作效能。
+            </p>
+            <ul class="text-xs text-stone-600 space-y-1.5 pt-1">
+              <li class="flex items-center gap-1.5">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-brand-700"></i>
+                <span>舒緩緊湊工作步調</span>
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-brand-700"></i>
+                <span>精巧桌面尺寸不礙手</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 送禮心意專區 (A Gift of Blessings，購買入口 3) -->
+      <div class="bg-gradient-to-br from-brand-900 via-stone-900 to-stone-950 text-white rounded-2xl sm:rounded-3xl p-6 sm:p-10 lg:p-14 relative overflow-hidden shadow-xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+          <div class="lg:col-span-7 space-y-4">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 text-amber-300 text-xs tracking-wider uppercase backdrop-blur-sm">
+              <i data-lucide="gift" class="w-3.5 h-3.5"></i>
+              <span>傳遞心意的恰好選擇</span>
+            </span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold leading-tight">
+              一份禮物，傳遞滿滿的祝福
+            </h3>
+            <p class="text-stone-200 text-xs sm:text-sm leading-relaxed">
+              它不只是一件擺飾，更是日常裡的一份祝福，寓意豐盛、成長與真摯的心意。無論是喬遷新居、店面開幕，或是人生重要的時刻，都是恰到好處的贈禮。
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs text-stone-300">
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="sparkle" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>店面開幕 ‧ 聚財迎客</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="sparkle" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>新居入厝 ‧ 興旺家宅</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="sparkle" class="w-3.5 h-3.5 text-amber-400"></i>
+                <span>職涯晉升 ‧ 步步高陞</span>
+              </div>
+            </div>
+            <div class="pt-3">
+              <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="btn-shine inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-sm transition-all duration-300 shadow-md"
+                 aria-label="到全家好賣＋選購（NT$ 199）">
+                <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+                <span>到全家好賣＋選購（NT$ 199）</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex justify-center">
+            <div class="relative w-56 sm:w-64 aspect-square rounded-2xl overflow-hidden border-2 border-white/20 shadow-xl">
+              <img src="images/4.png" 
+                   alt="天然水晶發財樹禮品展示" 
+                   loading="lazy"
+                   decoding="async"
+                   class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 商品詳細規格 (Specifications 加入換行保障與加深對比，購買入口 4) ================= -->
+  <section id="specs" class="py-16 sm:py-24 bg-brand-50 border-t border-stone-200 scroll-mt-[72px]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-14">
+        <span class="text-xs uppercase tracking-widest text-brand-700 font-semibold">Specifications</span>
+        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mt-2">商品規格明細</h2>
+        <div class="w-12 h-0.5 bg-brand-400 mx-auto mt-3 mb-4"></div>
+        <p class="text-stone-700 text-sm leading-relaxed">
+          天然水晶的色澤與紋理各有不同，每一件皆承載大自然的專屬印記。
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-sm border border-stone-200">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-center">
+          
+          <!-- 圖片展示 -->
+          <div class="md:col-span-5 aspect-square rounded-xl overflow-hidden bg-stone-100 border border-stone-200">
+            <img src="images/1.png" 
+                 alt="天然水晶發財樹規格照片" 
+                 loading="lazy"
+                 decoding="async"
+                 class="w-full h-full object-cover">
+          </div>
+
+          <!-- 規格列表 (窄手機 320px 友善換行排版) -->
+          <div class="md:col-span-7 space-y-3.5">
+            
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">商品名稱</span>
+              <span class="text-sm sm:text-base font-bold text-stone-900 font-serif">天然水晶發財樹（原木底座）</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">水晶款式</span>
+              <span class="text-xs sm:text-sm font-semibold text-stone-900 break-words">粉水晶 ‧ 綠東陵石 ‧ 白水晶 ‧ 紅瑪瑙</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">基座材質</span>
+              <span class="text-xs sm:text-sm font-semibold text-stone-900">天然原木切片底座</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">商品尺寸</span>
+              <span class="text-xs sm:text-sm font-semibold text-stone-900">約 10 × 15 公分（銅線枝條可微調展開）</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">配送與付款</span>
+              <span class="text-xs sm:text-sm font-semibold text-stone-900">全家店到店取貨付款（好賣+ 運費 NT$ 39）</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between py-2 border-b border-stone-200 gap-1">
+              <span class="text-xs sm:text-sm text-stone-700 font-semibold">推廣售價</span>
+              <div class="flex items-baseline gap-2">
+                <span class="text-xs text-stone-600 line-through font-medium">原價 NT$ 399</span>
+                <span class="text-2xl font-bold text-amber-900">NT$ 199</span>
+              </div>
+            </div>
+
+            <div class="pt-3">
+              <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="w-full btn-shine flex items-center justify-center gap-2 py-3.5 rounded-xl bg-stone-900 hover:bg-brand-800 text-white font-semibold text-sm transition-colors shadow-md"
+                 aria-label="前往商品頁（全家好賣＋）">
+                <span>前往商品頁（全家好賣＋）</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="mt-6 p-4 rounded-xl bg-brand-50 border border-stone-300 text-xs text-stone-700 leading-relaxed">
+          <p class="font-bold text-stone-900 mb-1">【購買溫馨提醒】</p>
+          <p>天然水晶原礦內含自然紋理、雲霧或微小結晶，每株發財樹皆具天然形成的獨特性。出貨前均經嚴謹品檢與完整防撞包裝，請安心選購。</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 常見問題 FAQ (支援鍵盤操作與 Aria 規範) ================= -->
+  <section id="faq" class="py-16 sm:py-24 bg-white border-t border-stone-200 scroll-mt-[72px]">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-14">
+        <span class="text-xs uppercase tracking-widest text-brand-700 font-semibold">Q&A</span>
+        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-stone-900 mt-2">常見問題與說明</h2>
+        <div class="w-12 h-0.5 bg-brand-400 mx-auto mt-3 mb-4"></div>
+        <p class="text-stone-700 text-sm leading-relaxed">
+          針對您可能感興趣的細節，我們整理了最常被詢問的解答。
+        </p>
+      </div>
+
+      <div class="space-y-3.5" id="faqAccordion">
+        
+        <!-- Q1 -->
+        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
+          <button id="faq-btn-1"
+                  class="w-full px-5 py-4 text-left font-serif font-bold text-stone-900 text-sm sm:text-base flex items-center justify-between hover:bg-stone-50 transition-colors focus:outline-none focus:bg-stone-100" 
+                  onclick="toggleFaq(this)"
+                  aria-expanded="false"
+                  aria-controls="faq-ans-1">
+            <span>收到後枝條需要自己整理展開嗎？</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-stone-500 transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div id="faq-ans-1" 
+               role="region" 
+               aria-labelledby="faq-btn-1" 
+               class="faq-answer px-5 pb-4 pt-1 text-xs sm:text-sm text-stone-700 leading-relaxed hidden">
+            為了確保運送途中的萬無一失，出貨時枝條會適度收攏保護。收到包裹後，您可以依個人美感喜好，如同插花般輕柔將金屬線枝條向外展開，隨心捏塑出您最喜愛的蓬勃姿態。
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
+          <button id="faq-btn-2"
+                  class="w-full px-5 py-4 text-left font-serif font-bold text-stone-900 text-sm sm:text-base flex items-center justify-between hover:bg-stone-50 transition-colors focus:outline-none focus:bg-stone-100" 
+                  onclick="toggleFaq(this)"
+                  aria-expanded="false"
+                  aria-controls="faq-ans-2">
+            <span>日常該如何清潔與保養？</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-stone-500 transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div id="faq-ans-2" 
+               role="region" 
+               aria-labelledby="faq-btn-2" 
+               class="faq-answer px-5 pb-4 pt-1 text-xs sm:text-sm text-stone-700 leading-relaxed hidden">
+            以乾淨的棉布或微潤軟布輕輕拂拭表面落塵即可；亦可使用軟毛刷清理細部。請避免使用具腐蝕性的化學清潔劑，並置於室內陰涼通風處，避免長時間烈日暴曬，即可常保光潤。
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
+          <button id="faq-btn-3"
+                  class="w-full px-5 py-4 text-left font-serif font-bold text-stone-900 text-sm sm:text-base flex items-center justify-between hover:bg-stone-50 transition-colors focus:outline-none focus:bg-stone-100" 
+                  onclick="toggleFaq(this)"
+                  aria-expanded="false"
+                  aria-controls="faq-ans-3">
+            <span>如何下單、可以選款式嗎？配送費用是多少？</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-stone-500 transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div id="faq-ans-3" 
+               role="region" 
+               aria-labelledby="faq-btn-3" 
+               class="faq-answer px-5 pb-4 pt-1 text-xs sm:text-sm text-stone-700 leading-relaxed hidden">
+            點擊頁面上的「到全家好賣＋選購」按鈕即可跳轉至官方賣場頁面。賣場支援<strong>自由挑選款式</strong>（粉水晶、綠東陵石、白水晶、紅瑪瑙均可勾選），採用全家店到店取貨付款（好賣+平台運費 NT$ 39），免先轉帳，取貨時再付款，安全有保障。
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item border border-stone-200 rounded-xl overflow-hidden">
+          <button id="faq-btn-4"
+                  class="w-full px-5 py-4 text-left font-serif font-bold text-stone-900 text-sm sm:text-base flex items-center justify-between hover:bg-stone-50 transition-colors focus:outline-none focus:bg-stone-100" 
+                  onclick="toggleFaq(this)"
+                  aria-expanded="false"
+                  aria-controls="faq-ans-4">
+            <span>天然水晶會有瑕疵或色差嗎？</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-stone-500 transition-transform duration-300 flex-shrink-0"></i>
+          </button>
+          <div id="faq-ans-4" 
+               role="region" 
+               aria-labelledby="faq-btn-4" 
+               class="faq-answer px-5 pb-4 pt-1 text-xs sm:text-sm text-stone-700 leading-relaxed hidden">
+            天然礦石每批次色澤、紋理、冰裂或小內含物皆不完全相同，這正是大自然賦予每株水晶獨一無二的生命印記與魅力。出貨前我們都會嚴謹品檢，保證出貨品質。
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 結尾行動呼籲 Call to Action (購買入口 5) ================= -->
+  <section class="py-16 sm:py-20 bg-stone-900 text-white text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-5">
+      <span class="inline-block text-xs uppercase tracking-widest text-amber-400 font-semibold">Special Offer</span>
+      <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight">為生活增添一份晶采</h2>
+      <p class="text-stone-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
+        挑選一棵喜愛的水晶發財樹，讓祝福化為日常的風景。<br class="hidden sm:inline">
+        天然原木與水晶光影交織，為空間帶來沉穩柔和的氣息。
+      </p>
+
+      <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn-shine w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-base shadow-lg transition-all duration-300"
+           aria-label="到全家好賣＋選購 ‧ NT$ 199">
+          <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+          <span>到全家好賣＋選購 ‧ NT$ 199</span>
+        </a>
+      </div>
+      
+      <p class="text-xs text-stone-400 pt-1">
+        ※ 點擊將前往全家好賣＋商品頁，可自由挑選款式（粉晶／綠東陵／白晶／紅瑪瑙），全家店到店取貨付款（運費 NT$ 39）。
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 頁尾 Footer ================= -->
+  <footer class="bg-stone-950 text-stone-400 py-10 border-t border-stone-800 text-xs sm:text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
+        
+        <div class="flex items-center gap-3">
+          <span class="w-7 h-7 rounded-full bg-stone-800 flex items-center justify-center text-amber-400">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          </span>
+          <div>
+            <div class="font-serif text-sm sm:text-base font-bold text-white">天然水晶發財樹</div>
+            <div class="text-[11px] text-stone-500">讓美好能量，在生活中悄悄綻放</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-5 text-xs text-stone-400">
+          <a href="#features" class="hover:text-white transition-colors">細節亮點</a>
+          <a href="#placement" class="hover:text-white transition-colors">空間擺設</a>
+          <a href="#crystals" class="hover:text-white transition-colors">水晶寓意</a>
+          <a href="#specs" class="hover:text-white transition-colors">規格說明</a>
+          <a href="#faq" class="hover:text-white transition-colors">常見問題</a>
+        </div>
+
+        <div class="text-[11px] text-stone-500">
+          &copy; 2026 天然水晶發財樹. 保留一切權利.
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= 浮動快捷按鈕 (回到頁首 / 前往頁尾) ================= -->
+  <div class="fixed right-3 sm:right-6 bottom-[calc(76px+env(safe-area-inset-bottom))] sm:bottom-6 z-50 flex flex-col gap-2 items-center">
+    <!-- 回到頁首 -->
+    <button onclick="scrollToTop()" 
+            id="scrollTopBtn"
+            title="回到頁首" 
+            class="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-white/95 hover:bg-stone-900 text-stone-700 hover:text-white shadow-lg border border-stone-300 backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 group opacity-0 pointer-events-none scale-90"
+            aria-label="回到頁首">
+      <i data-lucide="chevron-up" class="w-5 h-5 transition-transform group-hover:-translate-y-0.5"></i>
+    </button>
+
+    <!-- 前往頁尾 -->
+    <button onclick="scrollToBottom()" 
+            id="scrollBottomBtn"
+            title="前往頁尾" 
+            class="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-white/95 hover:bg-stone-900 text-stone-700 hover:text-white shadow-lg border border-stone-300 backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 group"
+            aria-label="前往頁尾">
+      <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-hover:translate-y-0.5"></i>
+    </button>
+  </div>
+
+  <!-- ================= 手機端懸浮吸底下單欄 (購買入口 6，預留 iOS 安全區與清晰價格) ================= -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-stone-200 px-4 py-2.5 pb-[calc(0.65rem+env(safe-area-inset-bottom))] sm:hidden flex items-center justify-between shadow-2xl">
+    <div class="flex flex-col">
+      <div class="flex items-baseline gap-1.5">
+        <span class="text-xs text-stone-500 line-through">原價$399</span>
+        <span class="text-lg font-bold text-stone-900 font-serif">NT$ 199</span>
+      </div>
+      <span class="text-[10px] text-amber-900 font-medium">四款可選 ‧ 運費$39</span>
+    </div>
+
+    <a href="https://famistore.famiport.com.tw/famistore/users/1073868/merchandises/6afe5ee82737c864abf11997"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn-shine inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full bg-stone-900 text-white font-bold text-xs shadow-md"
+       aria-label="前往商品頁（全家好賣＋）">
+      <span>前往商品頁</span>
+      <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
